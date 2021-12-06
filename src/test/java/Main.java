@@ -40,5 +40,32 @@ public class Main {
         System.out.println("Changed listener type.");
 
         eventBus.getInfo();
+
+        /*
+
+        OUTPUT:
+
+        Subscribed object.
+        Instance listener recieved event :)
+        RecieveCancelled listener recieved event :)
+        Subscribed class.
+        Instance listener recieved event :)
+        Static listener recieved event :)
+        RecieveCancelled listener recieved event :)
+        Cancelled event.
+        RecieveCancelled listener recieved event :)
+        [EVENTBUS]: ============ EVENTBUS INFO ============
+        [EVENTBUS]: Handler type             LambdaHandler
+        [EVENTBUS]: Subscriber count         2
+        [EVENTBUS]: Listener count           3
+        [EVENTBUS]: TestEvent                3
+        Changed listener type.
+        [EVENTBUS]: ============ EVENTBUS INFO ============
+        [EVENTBUS]: Handler type             ReflectHandler
+        [EVENTBUS]: Subscriber count         2
+        [EVENTBUS]: Listener count           3
+        [EVENTBUS]: TestEvent                3
+
+         */
     }
 }
