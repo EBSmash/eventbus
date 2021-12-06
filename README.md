@@ -74,6 +74,9 @@ This method will return true if the posted event was cancelled, and false otherw
 
 ## Features
 
+### Thread Safe
+I tried to make it fail, and it wouldn't.
+
 ### Simple to Use
 Simple implementation, and simple listener syntax.
 
