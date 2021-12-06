@@ -1,4 +1,5 @@
 # EVENTBUS
+<img src="https://tokei.rs/b1/github/bush-did-711/eventbus" alt="GitHub lines of code"/> <img src="https://img.shields.io/github/languages/code-size/bush-did-711/eventbus" alt="GitHub code size"/><br>
 *An extremely fast, flexible, lightweight, and simple event system aimed towards Minecraft utility mods.*
 
 ## Usage
