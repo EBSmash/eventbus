@@ -1,8 +1,6 @@
 import me.bush.eventbus.bus.EventBus;
 import me.bush.eventbus.handler.handlers.ReflectHandler;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * Started: 12/2/2021
  *
