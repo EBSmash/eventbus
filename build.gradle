@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'me.bush'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // jdk.internal. won't work so i need to add it seperately
+    implementation 'org.ow2.asm:asm:9.2'
+}
