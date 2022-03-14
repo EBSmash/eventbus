@@ -15,9 +15,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.Consumer;
 
 /**
- * Started: fall 2021
- *
  * @author bush
+ * @since fall 2021
  */
 public class EventBus {
     // To avoid confusion:

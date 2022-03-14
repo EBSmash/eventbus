@@ -10,13 +10,12 @@ import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 /**
- * Started: fall 2021
- *
  * <p>An annotation that tells the eventbus which methods are listeners. Can be used on static and instance methods.
  * The object the annotated method is in must be subscribed for events to be posted to this listener, by using
  * {@link EventBus#subscribe}.
  *
  * @author bush
+ * @since fall 2021
  */
 @Documented
 @Target(value = METHOD)

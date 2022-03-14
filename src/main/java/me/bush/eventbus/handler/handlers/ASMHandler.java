@@ -15,9 +15,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Consumer;
 
 /**
- * Started: 11/23/2021
- *
- * @author bush & forge
+ * @author bush, forge
+ * @since 11/23/2021
  */
 public class ASMHandler extends Handler {
 

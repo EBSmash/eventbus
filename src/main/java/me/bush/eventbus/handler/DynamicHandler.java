@@ -5,9 +5,8 @@ import me.bush.eventbus.handler.handlers.ASMHandler;
 import me.bush.eventbus.handler.handlers.LambdaHandler;
 
 /**
- * Started: 11/14/2021
- *
  * @author bush
+ * @since 11/14/2021
  */
 public interface DynamicHandler {
 

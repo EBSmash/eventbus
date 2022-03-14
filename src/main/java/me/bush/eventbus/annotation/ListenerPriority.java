@@ -1,9 +1,8 @@
 package me.bush.eventbus.annotation;
 
 /**
- * Started: fall 2021
- *
  * @author bush
+ * @since fall 2021
  */
 public enum ListenerPriority {
     HIGHEST,

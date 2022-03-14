@@ -3,13 +3,22 @@ plugins {
 }
 
 group 'me.bush'
-version '1.0.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    // jdk.internal. won't work so i need to add it seperately
+    // jdk.internal. won't work so i need to add it separately
     implementation 'org.ow2.asm:asm:9.2'
+}
+
+java {
+    withJavadocJar()
+}
+
+javadoc {
+    source = sourceSets.main.allJava
+    options.addStringOption('Xdoclint:none', '-quiet')
 }

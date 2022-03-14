@@ -12,9 +12,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Consumer;
 
 /**
- * Started: fall 2021
- *
  * @author bush
+ * @since fall 2021
  */
 public class LambdaHandler extends Handler {
 

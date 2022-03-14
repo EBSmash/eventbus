@@ -12,9 +12,8 @@ import java.lang.reflect.Method;
 import java.util.function.Consumer;
 
 /**
- * Started: 11/25/2021
- *
  * @author bush
+ * @since 11/25/2021
  */
 public abstract class Handler {
 

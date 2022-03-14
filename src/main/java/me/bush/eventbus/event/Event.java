@@ -4,9 +4,8 @@ import me.bush.eventbus.annotation.EventListener;
 import me.bush.eventbus.bus.EventBus;
 
 /**
- * Started: fall 2021
- *
  * @author bush
+ * @since fall 2021
  */
 public abstract class Event {
 
@@ -34,6 +33,16 @@ public abstract class Event {
     public void setCancelled(boolean cancelled) {
         if (this.isCancellable()) {
             this.cancelled = cancelled;
+        }
+    }
+    
+    /**
+     * Sets this event to cancelled, so only {@link EventListener#recieveCancelled} future listeners
+     * will be invoked.
+     */
+    public void cancel() {
+        if (this.isCancellable()) {
+            this.cancelled = true;
         }
     }
 
