@@ -28,7 +28,7 @@ public class Main {
         // Post event (class is subscribed, so static methods will be invoked too)
         eventBus.post(event);
 
-        event.setCancelled(true);
+        event.cancel();
         System.out.println("Cancelled event.");
 
         // Post cancelled event (only "RecieveCancelled" should be invoked)
