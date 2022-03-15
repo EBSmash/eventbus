@@ -1,8 +1,9 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
-group 'me.bush'
+group 'com.github.bush-did-711'
 version '1.0.2'
 
 repositories {
