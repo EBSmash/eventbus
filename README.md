@@ -14,7 +14,7 @@ repositories {
 Add the release of your choice in the dependencies block:
 ```groovy
 dependencies {
-    implementation 'com.github.bush-did-711:eventbus:1.0.1'
+    implementation 'com.github.bush-did-711:eventbus:1.0.2'
 }
 ```
 
