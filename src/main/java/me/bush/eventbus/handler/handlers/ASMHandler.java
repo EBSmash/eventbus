@@ -5,9 +5,9 @@ import me.bush.eventbus.event.Event;
 import me.bush.eventbus.handler.DynamicHandler;
 import me.bush.eventbus.handler.Handler;
 import me.bush.eventbus.util.Util;
-import jdk.internal.org.objectweb.asm.ClassWriter;
-import jdk.internal.org.objectweb.asm.MethodVisitor;;
-import jdk.internal.org.objectweb.asm.Type;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.Type;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;

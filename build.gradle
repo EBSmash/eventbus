@@ -12,6 +12,11 @@ repositories {
 
 sourceCompatibility = targetCompatibility = 1.8
 
+dependencies {
+    // jdk.internal... is an internal api so i need to add it separately
+    compileOnly 'org.ow2.asm:asm:5.2'
+}
+
 java {
     withSourcesJar()
     withJavadocJar()
