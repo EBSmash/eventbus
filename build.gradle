@@ -13,7 +13,7 @@ dependencies {
     // jdk.internal. won't work so i need to add it separately
     // Keeping this at the version forge uses because it can
     // cause issues if it is > version 7
-    implementation 'org.ow2.asm:asm:6.2'
+    implementation 'org.ow2.asm:asm:5.2'
 }
 
 java {
