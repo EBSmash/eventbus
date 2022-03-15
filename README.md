@@ -1,12 +1,22 @@
 # EVENTBUS
-<img src="https://tokei.rs/b1/github/bush-did-711/eventbus" alt="GitHub lines of code"/> <img src="https://img.shields.io/github/languages/code-size/bush-did-711/eventbus" alt="GitHub code size"/><br>
+<img src="https://tokei.rs/b1/github/bush-did-711/eventbus" alt="GitHub lines of code"/> <img src="https://img.shields.io/github/languages/code-size/bush-did-711/eventbus" alt="GitHub code size"/> [![](https://jitpack.io/v/bush-did-711/eventbus.svg)](https://jitpack.io/#bush-did-711/eventbus)<br>
 *An extremely fast, flexible, lightweight, and simple event system aimed towards Minecraft utility mods.*
 
 ## Usage
 
 ### Adding to your project:
-I am planning on uploading this to MavenCentral, but until then either download a jar from the releases tab,
-or download and paste the contents of `src/main/java/` into your project somewhere.
+If you have not already, add Jitpack as a repository:
+```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+```
+Add the release of your choice in the dependencies block:
+```groovy
+dependencies {
+    implementation 'com.github.bush-did-711:eventbus:1.0.1'
+}
+```
 
 ### Creating an EventBus:
 When creating a new EventBus, there are 3 different arguments it can accept:
